@@ -1,4 +1,4 @@
-# streamlit_test
+# Streamlit_test
 Testing if you can deploy streamlit app to azure or aws
 
 ## 1. Try to make it work locally github codespace
