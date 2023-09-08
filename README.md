@@ -11,6 +11,8 @@ Testing if you can deploy streamlit app to azure or aws
 
 -Docker Running Process Reference [https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker]
 
+-Reference 3 [https://towardsdatascience.com/deploying-a-streamlit-web-app-with-azure-app-service-1f09a2159743]
+
 
 ## 2. Commands to run docker
 
