@@ -23,4 +23,11 @@ Testing if you can deploy streamlit app to azure or aws
         streamlit    latest    70b0759a094d   About a minute ago   1.02GB
     4 Run the docker container by typing this:  docker run -p 8501:8501 streamlit
 
+## we finally get it run on auzre app service
+
+    Push the docker file to azure image registory through main.yml file from the workflow --- after trigering the action which will create a work flow and automaticall push it to the azure image registory. 
+
+    you however need to mannually deploy the image to azure app service. make sure choose the right setting. Do not add command line since you have entry point from docker file.
+
+
 
