@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-COPY . /app
+COPY . .
 
 RUN pip install -r requirements.txt
 
